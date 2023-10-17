@@ -4,17 +4,146 @@
   box-sizing: border-box;
 }
 
-.main {
+.pages-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 90vh;
-  background-color: rgb(4, 89, 201);
+  background-color: rgb(3, 98, 138);
 }
 
 .blue {
   width: 90%;
   text-align: center;
   height: 300px;
+  color: #fff;
+}
+.blue h1 {
+  font-size: 80px;
+}
+.blue h4 {
+  font-size: 50px;
+}
+.blue p {
+  font-size: 25px;
+}
+.blue button {
+  background-color: rgb(218, 4, 79);
+  color: #fff;
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.pages-2 {
+  position: relative;
+  left: 300px;
+  width: 60%;
+  height: 1000px;
+  background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png);
+}
+
+.text {
+  width: 80%;
+  height: 10px;
+}
+
+.our {
+  color: rgb(3, 98, 138);
+  display: flex;
+  position: relative;
+  left: 40px;
+  top: 100px;
+}
+
+.container {
+  position: relative;
+  top: 100px;
+  left: 30px;
+}
+
+.card-1 {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  background-color: rgb(3, 98, 138);
+  width: 320px;
+  height: 400px;
+  position: relative;
+  top: 380px;
+  left: 40px;
+  color: #fff;
+  padding: 20px;
+}
+
+.text-down {
+  position: relative;
+  top: 400px;
+  left: 40px;
+  width: 80%;
+}
+
+.pages-3 {
+  width: 100%;
+  position: relative;
+  top: 100px;
+}
+
+.line-panel {
+  background-color: rgb(3, 98, 138);
+  display: flex;
+  align-items: center;
+}
+
+.street-about {
+  color: #fff;
+}
+
+.pages-4 {
+  width: 100%;
+  position: relative;
+  top: 100px;
+}
+
+.our-plan {
+  color: rgb(3, 98, 138);
+  display: flex;
+  position: relative;
+  left: 330px;
+  top: 100px;
+}
+
+.card-2 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: 80px;
+}
+
+.boxdown {
+  background-color: rgb(217, 217, 217);
+  width: 350px;
+  height: 450px;
+  font-size: 30px;
+  color: gray;
+}
+.boxdown .head {
+  background-color: black;
+  color: #fff;
+}
+.boxdown .price {
+  height: 80px;
+  background-color: green;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxdown .read {
+  margin-top: 20px;
+  background-color: red;
+  width: 100%;
 }
