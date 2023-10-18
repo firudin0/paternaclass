@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(/assets/images/sativa.png);
+}
+.navi {
+    width: 100%;
+    a {
+      color: white;
+      &:hover {
+        color: white;
+      }
+    }
+    
+  }
 .pages-1{
     display: flex;
     justify-content: center;
@@ -38,7 +51,7 @@
     left: 300px;
     width: 60%;
     height: 1000px;
-    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png);
+   
 }
 .text{
  width: 80%;
@@ -73,29 +86,29 @@
   }
   .text-down{
     position: relative;
-    top: 400px;
+    top: 500px;
     left: 40px;
     width: 80%;
   }
 .pages-3{
     width: 100%;
     position: relative;
-    top: 100px;
+    top: 200px;
 }
 .line-panel{
     background-color:rgb(3, 98, 138);
-    display: flex;
-    align-items: center;
+     
 }
 .street-about{
     // position: relative;
     // top: 1px;
     color: #fff;
+    
 }
 .pages-4{
     width: 100%;
     position: relative;
-    top: 100px;
+    top: 200px;
 }
 .our-plan{
     color: rgb(3, 98, 138);
